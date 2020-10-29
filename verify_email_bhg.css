@@ -1,0 +1,242 @@
+         /* Style CSS */
+            
+            /* Link Color */
+            a {
+                color: #000000;
+            }
+            
+            /* Font Styling */
+            h1, .hl-1, h2, .hl-2, p, .text, .footer-text, .bold, .bullet, .button_structure, .button_style, .preheader-link, .leadin-copy, .nav-link {
+                font-family: 'Open Sans', Arial, sans-serif;
+            }
+            .hl-1 {
+                font-size: 24px;
+                color: #222222;
+                line-height: 28px;
+                font-weight: 300;
+                text-align: left;
+            }
+            h2, .hl-2 {
+                font-size: 13px;
+                color: #222222;
+                line-height: 18px;
+                font-weight: 700;
+                text-align: left;
+                text-transform: uppercase;
+            }
+            p, .text {
+                font-size: 15px;
+                line-height: 20px;
+                text-align: left;
+                color: #222222;
+            }
+            .footer-text {
+                font-size: 12px;
+                line-height: 16px;
+                color: #999999;
+                text-align: center;
+            }
+            .preheader-link {
+    font-size: 12px;
+    text-align: left;
+}
+    .nav-link {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    Margin: 0 auto;
+    padding: 0px 5px;
+    text-align: center;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}       
+            
+            
+            
+            .leadin-copy {
+    font-family: 'Source Sans Pro', Arial, sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    Margin: 0 auto;
+    color: #222222 !important;
+    text-decoration: none;
+}
+            
+            /* Visual Elements */
+            .border {
+                border: 1px solid #dddddd;
+            }
+            .bullet {
+                color: #999999;
+            }
+            .button_structure {
+                -webkit-border-radius: 0px;
+                -moz-border-radius: 0px;
+                border-radius: 0px;
+                height: 50px;
+                background-color: #AB308A;
+                text-align: center;
+                mso-line-height-rule: exactly !important;
+            }
+            .button_style {
+                font-size: 14px;
+                line-height: 14px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0px;
+                mso-line-height-rule: exactly !important;
+                color: #ffffff !important;
+                text-decoration: none;
+                -webkit-border-radius: 0px;
+                -moz-border-radius: 0px;
+                border-radius: 0px;
+                padding: 15px 0px;
+                display: inline-block;
+                width: 100%;
+            }
+            
+            /* Structural CSS */
+            html {
+                Margin: 0 auto;
+                padding: 0;
+            }
+            body {
+                width: 100%;
+                min-width: 100%;
+                Margin: 0 auto !important;
+                padding: 0 !important;
+                border-collapse: collapse !important;
+                table-layout: fixed !important;
+            }
+            table td {
+                border-collapse: collapse !important;
+            }
+            img {
+                display: block;
+                border: none;
+                text-align: center;
+            }
+            .p-tblr-20 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .p-b-25 {
+                padding-bottom: 25px;
+            }
+            .p-t-20-b-25 {
+                padding-top: 20px;
+                padding-bottom: 25px;
+            }
+            .p-tb-20 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            
+            /* Client-specific CSS */
+            #outlook a {
+                padding: 0 !important;
+            }
+            .ExternalClass * {
+                line-height: 100%;
+            }
+            * {
+                -webkit-text-size-adjust: none;
+            }
+            
+            /* Mobile-Specific CSS */
+            @media screen and (max-width: 480px) {
+                u + .body .full-wrap { 
+                    width:100% !important;
+                    width:100vw !important;
+                }
+                 table.center {
+    margin-left:auto !important; 
+    margin-right:auto !important;
+  }
+                .mobile-only {
+                    display: block!important;
+                    width: auto!important;
+                    max-height: inherit!important;
+                    overflow: visible!important;
+                    float: none!important;
+                }
+                .mobile-max-width {
+                    max-width: 120px!important;
+                }
+                .wrap {
+                    width: 100%!important;
+                    max-width: 100%!important;
+                    height: auto!important;
+                }
+                .empty {
+                    width: 0 !important;
+                    height: 0 !important;
+                    display: none !important;
+                }
+                .responsive-image {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    height: auto !important;
+                }
+                .padding-none {
+                    padding: 0px !important;
+                }
+                .mp-t-10 {
+                    padding-top: 10px !important;
+                }
+                .mp-t-0-b-15 {
+                    padding-top: 0px !important;
+                    padding-bottom: 15px !important;
+                }
+                .mp-t-0 {
+                    padding-top: 0px !important;
+                }
+                .mp-b-25 {
+                    padding-bottom: 25px !important;
+                }
+                .mp-b-30 {
+                    padding-bottom: 30px !important;
+                }
+                .mp-tblr-20 {
+                    padding-top: 20px !important;
+                    padding-bottom: 20px !important;
+                    padding-left: 20px !important;
+                    padding-right: 20px !important;
+                }
+                .mp-lr-20 {
+                    padding-left: 20px !important;
+                    padding-right: 20px !important;
+                }
+                .mp-lr-15 {
+                    padding-left: 15px !important;
+                    padding-right: 15px !important;
+                }
+                .mp-lr-5 {
+                    padding-left: 5px !important;
+                    padding-right: 5px !important;
+                }
+                .mp-l-20 {
+                    padding-left: 20px !important;
+                }
+                .m-align {
+                    vertical-align: middle !important;
+                }
+                .break {
+                    display: block !important;
+                }
+                .text-center {
+                    text-align: center !important;
+                }
+                .center {
+            text-align:center !important;
+        }
+                .center-image {
+    display: block !important;
+    margin-left: auto!important;
+    margin-right: auto  !important;
+    width: 50% !important;
+}
+                
+            }
